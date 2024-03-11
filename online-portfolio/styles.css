@@ -4,9 +4,12 @@
 
 IMG {
     width: 100%;
+    padding: 40px; 
 }
 
-
+h1 {
+    padding: 40px;
+}
 
 IMG_2689.JPG {border-style: solid;
   border-color:#A6BCC8;
