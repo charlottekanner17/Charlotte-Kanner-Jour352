@@ -1,22 +1,119 @@
 /*
  * BLUE = #A6BCC8
+ * GREY = #ACA8A4
+ * BROWN = #836C61
+ * DARK GREY JOB TITLE = #545454
  */
 
 @media {
+    img {
+       width: 100%;
+       padding: 10px;     
+     background-color: #ACA8A4
+    }
 
-IMG_2689.JPG {
-    width: 100%;
-    border-radius: 50%;
-    padding: 40px 0px 40px 0px; 
     
-}
+    h1 {
+    font-size: 60px;
+    color: white;
+    padding: 20px;
+   font-family: "Playfair Display", serif;
+    text-align: center; 
+    }
 
-h1 {
-    padding: 40px;
-}
+        h2 {
+            background-color: #ACA8A4;
+            color: white;    
+            font-family: "Playfair Display", serif; 
+            font-size: 30px;
+           
+        }
 
-IMG_2689.JPG {
-  border-style: solid;
-  border-color:#A6BCC8;
-}
+    button {
+        background-color: #836C61; 
+        color: white; 
+        font-family: "Sorts Mill Goudy", serif;
+        text-align: center; 
+        text-transform:uppercase;
+        display:block;
+        margin:auto;
+     
+    }
+  
+    #nav nutton{
+        color:white;
+    }
+    
+    @media (min-width: 576px) {
+        h1{
+            font size: 90px;
 
+            font-family: "Playfair Display", serif;
+        }   
+    }
+    p {
+         font-family: "Sorts Mill Goudy", serif;
+    }
+
+    li {
+         font-family: "Sorts Mill Goudy", serif;
+        color: white;
+    
+    }
+    
+    body {
+        background-color: #ACA8A4
+    }
+    
+    
+    #nav {
+        padding: 10px ; 
+        text-align: center; 
+        background-color: #A6BCC8; 
+    }
+    
+    #nav a {
+        color: white; 
+        font-family: "Sorts Mill Goudy", serif;
+        text-decoration: none;
+    }
+    
+    #nav a:hover {
+        color: white; 
+        font-family: "Sorts Mill Goudy", serif;
+        text-decoration:underline;
+    }
+    
+    .jobtitle{
+        color: #545454; 
+        font-size: 20px; 
+        font-weight: bold; 
+    }  
+    
+    .joblocation{
+        color: white;
+        font-size: 18px;
+
+    }
+    
+    .jobdate{ 
+    color: white;
+        font-size: 14px; 
+    }
+    
+    .jobdes{
+        color: white;
+        
+    }
+    
+    .education{
+        color:white;
+    }
+    
+    #footer{
+        color:white; 
+        border: 40px ; 
+         background-color: #A6BCC8; 
+        font-family: "Playfair Display", serif;
+        
+    }
