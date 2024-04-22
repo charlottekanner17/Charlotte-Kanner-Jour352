@@ -1,0 +1,21 @@
+#headshot {
+    width:300px;
+}
+
+body {
+    font-family: Arial, san-serif; 
+}
+
+#contact a {
+    color:black; 
+    font-weight:bold; 
+    font-size:20px;
+}
+
+#contact a:hover {
+    color:red; 
+}
+
+#info {
+    width:700px;
+}
