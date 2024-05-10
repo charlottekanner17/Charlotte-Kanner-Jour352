@@ -1,0 +1,15 @@
+@media {
+    #content{
+        width: 100%;
+        margin:auto;
+    }
+    
+    
+}
+@media (min-width: 576px) {
+    #content{
+        width: 60%;
+    }
+    
+    
+}
