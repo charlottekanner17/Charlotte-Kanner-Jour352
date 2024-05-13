@@ -1,45 +1,114 @@
-@media  {
-    #content{
+@media {
+    #content {
         width: 100%;
         margin: auto;
-    }  
+    }
 }
 @media (min-width: 576px) {
-    #content{
+    #content {
         width: 60%;
     }
-    
-    
 }
 
+@media (min-width: 576px-991px) {
+    #content {
+        
+    }
+}
+
+@media (min-width:992px) {
+    #content{ 
+    }
+}
+    
+    
 figcaption {
-  background-color: white;
-  color: dimgrey;
-  font-style: italic;
-  padding: 2px;
-  font-size: 14px;    
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  
+    background-color: white;
+    color: dimgrey;
+    font-style: italic;
+    padding: 2px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
 }
 
- p {
-     font-family: "Newsreader", serif;
-     font-size: 18px;
+p {
+    font-family: "Newsreader", serif;
+    font-size: 18px;
 }
 
 h1 {
-    font-family:  "Newsreader", serif;
+    font-family: "Newsreader", serif;
     font-size: 50px;
 }
 
-.subheading{
-    font-size: 20px;
-    font-weight: 100; 
+.subheading {
+    font-size: 38px;
+    font-weight: 500;
 }
 
-.pullquote{
-    font-family: "Newsreader", serif;
-    font-size: 22px;
-    font-weight: 100; 
+.titlesub{
+    font-size:38px;
+    font-weight: 180px;
 }
+
+.pullquote {
+    font-family: "Newsreader", serif;
+    font-size: 38px;
+    font-weight: 300;
+   
+}
+
+.attribution {
+    font-family: "Roboto", sans-serif;
+    font-size: 14;
+    color: dimgrey;
+}
+
+hr{
+    border-color: #FF474C; 
+    border-width: 2px; 
+}
+
+.author{ 
+font-size: 15px;
+font-family: "Newsreader", serif;
+font-weight: 400px;
+}
+
+.date{ 
+font-size: 15px;
+font-family: "Newsreader", serif;
+font-weight:400px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+
+}
+
+a:hover {
+  color: #FF474C;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
